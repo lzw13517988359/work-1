@@ -1,4 +1,7 @@
-Mat imgGray, imgBlur, imgCanny, imgDil, imgHSV, mask, imgBinary;
+#include <iostream>
+#include <opencv4/opencv2/opencv.hpp>
+using namespace std;
+using namespace cv;Mat imgGray, imgBlur, imgCanny, imgDil, imgHSV, mask, imgBinary;
 int hmin=0,smin=110,vmin=153;
 int hmax=19,smax=240,vmax=255;
 int main(){
